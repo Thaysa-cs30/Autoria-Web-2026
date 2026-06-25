@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Participantes de Oficina</title>
+</head>
+
+<h1>Cadastro de Participantes de Oficina</h1>
+
+<body>
+
+<section>
+    <form action="#">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome..."><br>
+        
+        <br>
+        
+        <label for="senha">Senha de Acesso:</label><br>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha..."><br>
+        
+        <br>
+        <label for="oficina">Oficina Principal:</label><br>
+        <select name="oficina" id="oficina">
+            <option value="html e css">HTML e CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="banco de dados">Banco de Dados</option>
+          <option value="robotica">Robótica</option><br>
+        </select>
+          <br>
+
+        <p>Turno:</p>
+        <input type="radio" name="Turno" id="manha" value="Manhã">
+        <label for="manha">Manhã</label>
+        <input type="radio" id="tarde" name="turno" value="Tarde">
+        <label for="tarde">Tarde</label>
+        <input type="radio" id="noite" name="turno" value="Noite">
+        <label for="noite">Noite</label>
+        </select>
+          <br>
+
+            <p>Áreas de Interesse:</p>
+
+        <input type="checkbox" name="programacao web" id="programacao web" value="Programação Web">
+        <label for="programacao web">Programação Web</label>
+        <input type="checkbox" name="design" id="design" value="Design">
+        <label for="design">Design</label>
+        <input type="checkbox" name="banco de dados" id="banco de dados" value="banco de dados">
+        <label for="banco de dados">Banco de Dados</label>
+        <input type="checkbox" name="robotica" id="robotica" value="robotica">
+        <label for="robotica">Robótica</label><br>
+        <br>
+
+        <label for="observacoes:">Observações:</label><br>
+        <textarea name="mensagem" id="mensagem" rows="5"></textarea><br>
+
+        
+        <br>
+        <button type="submit" onclick="alert('ME CLICOU!')">Enviar Inscrição</button>
+
+            </form>
+    </section>
+
+
+    </table>
+    </section>
+
+    <section>
+      <h2>Participantes já inscritos</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Oficina</th>
+            <th>Turno</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ana Clara</td>
+            <td>HTML e CSS</td>
+            <td>Manhã</td>
+            <td>Confirmado</td>
+          </tr>
+          <tr>
+            <td>Lucas Henrique</td>
+            <td>JavaScript</td>
+            <td>Tarde</td>
+            <td>Pendente</td>
+          </tr>
+          <tr>
+            <td>Mariana Souza</td>
+            <td>Banco de Dados</td>
+            <td>Noite</td>
+            <td>Confirmado</td>
+          </tr>
+          <tr>
+            <td>Pedro Lima</td>
+            <td>Robótica</td>
+            <td>Tarde</td>
+            <td>Em Análise</td>
+          </tr>
+          <tr>
+            <td>Juliana Alves</td>
+            <td>HTML e CSS</td>
+            <td>Manhã</td>
+            <td>Confirmado</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+    
+</body>
+</html>
