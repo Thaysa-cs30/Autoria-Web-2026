@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Participantes de Oficina</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <style>
+      body {
+        background-color: lightgray;
+        font-family: Arial, Helvetica, sans-serif
+      }
+    </style>
 </head>
 
-<h1>Cadastro de Participantes de Oficina</h1>
+<h1 style="color: navy; background-color: aqua;">Cadastro de Participantes de Oficina</h1>
 
 <body>
 
 <section>
     <form action="#">
-        <label for="nome">Nome Completo:</label><br>
+        <label for="nome" class="negrito">Nome Completo:</label><br>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome..."><br>
         
         <br>
         
-        <label for="senha">Senha de Acesso:</label><br>
+        <label for="senha" class="negrito">Senha de Acesso:</label><br>
         <input type="password" id="senha" name="senha" placeholder="Digite sua senha..."><br>
         
         <br>
@@ -30,7 +37,7 @@
         </select>
           <br>
 
-        <p>Turno:</p>
+        <p>Turno: <br>
         <input type="radio" name="Turno" id="manha" value="Manhã">
         <label for="manha">Manhã</label>
         <input type="radio" id="tarde" name="turno" value="Tarde">
@@ -68,7 +75,7 @@
 
     <section>
       <h2>Participantes já inscritos</h2>
-      <table border="1">
+      <table border="1" id="tabela">
         <thead>
           <tr>
             <th>Nome</th>
@@ -110,6 +117,10 @@
           </tr>
         </tbody>
       </table>
+
+      <h2>Destacando parte específica de um texto</h2>
+
+      <p>Lorem ipsum <span class="negrito">dolor</span> elit. Neque quibusdam porro modi. Velit eius nesciunt laboriosam consectetur qui praesentium incidunt placeat, distinctio est, voluptas officiis unde iusto ipsam. Alias, odit!p>
     </section>
 
 
