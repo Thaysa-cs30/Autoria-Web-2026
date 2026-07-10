@@ -10,8 +10,16 @@
     --blue-slate: #FE6D73
 }
 
+/* CSS reset */
+* {
+    margin: 0;            
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Quicksand', 'Arial', 'sans-serif';
+    padding: 50px;
 }
 
 /* Seleção de elemento */
@@ -45,4 +53,58 @@ h1,
 
 form button {
     background-color: brown
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+#nav-sections ul {
+    list-style-type: none;
+}
+
+#nav-sections li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:aqua;
+    background-color:blue;
+    border-radius: 5px;
+}
+
+a:hover {
+    color:red;
+    box-shadow: 0 0 5px rgb(124, 65, 124);
+}
+
+#nav-links {
+    ul {
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+    font-weight: bold;
+    color:red;
+    background-color:pink;
+    border-radius: 5px;
+    }
+    a:hover {
+        color:violet;
+    box-shadow: 0 0 5px light;
+    }
+}
+
+.fonte-maior {
+    font-size: 48px;
 }

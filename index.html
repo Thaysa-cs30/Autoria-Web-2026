@@ -4,6 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Autoria Web</title>
   </head>
   <!-- contém o conteúdo visível da página -->
@@ -17,7 +18,7 @@
       <h5>Eu amei Autoria Web!</h5>
       <h6>Eu amei Autoria Web!</h6> -->
 
-      <nav>
+      <nav id="nav-links">
         <ul>
           <li>
             <a href="#">Início</a>
@@ -34,6 +35,23 @@
           </li>
         </ul>
       </nav>
+      <p class="negrito fonte-maior">Seções</p>
+      <nav id="nav-sections">
+        <ul>
+          <li>
+            <a href="#section1">Seção 1</a>
+          </li>
+          <li>
+            <a href="#section2">Seção 2</a>
+          </li>
+          <li>
+            <a href="#section3">Seção 3</a>
+          </li>
+          <li>
+            <a href="#section4">Seção 4</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <br />
@@ -46,9 +64,8 @@
       <!-- 
         <section>: seção temática do documento, geralmente com um título próprio
       -->
-      <section>
+      <section id="section1">
         <h2>Seção 1</h2>
-
         <!-- 
           <div>: contêiner genérico em bloco, sem significado semântico próprio, 
           útil para agrupamento quando nenhum dos elementos semânticos se aplica.
@@ -57,6 +74,7 @@
           <img
             src="assets/imgs/foto.jpeg"
             alt="Paisagem da natureza: montanhas e lagos"
+            class="avatar"
           />
         </div>
 
@@ -76,11 +94,12 @@
       </section>
       <br />
 
-      <section>
+      <section id="section2">
         <h2>Seção 2</h2>
         <img
           src="assets/imgs/foto2.jpeg"
           alt="Paisagem da natureza: praia paradisíaca"
+          class="avatar"
         />
         <p>
           Lorem ipsum, <em>dolor</em> sit amet consectetur adipisicing elit.
@@ -91,9 +110,13 @@
       </section>
       <br />
 
-      <section>
+      <section id="section3">
         <h2>Seção 3</h2>
-        <img src="assets/imgs/fotogithub.jpeg" alt="Avatar do Github" />
+        <img
+          src="assets/imgs/fotogithub.jpeg"
+          alt="Avatar do Github"
+          class="avatar"
+        />
         <p>Dicas para alcançar os seus objetivos:</p>
         <ul>
           <li>Foco</li>
@@ -103,11 +126,12 @@
       </section>
       <br />
 
-      <section>
+      <section id="section4">
         <h2>Seção 4</h2>
         <img
           src="assets/imgs/foto4.jpeg"
           alt="Paisagem da natureza: a beleza da floresta amazônica"
+          class="avatar"
         />
         <p>O que fazer quando chegar no lab?</p>
         <ol>
