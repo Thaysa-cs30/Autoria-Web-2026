@@ -107,4 +107,17 @@ a:hover {
 
 .fonte-maior {
     font-size: 48px;
+    background-color: pink;
+    padding-left: 20px;
+    /* border-width: 10px; */
+    /* border-style: solid; */
+    /* border-color: #593C8F; */
+    border: 10px solid #593C8F;
+}
+
+.teste-espacamento {
+    background-color: plum;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    border-bottom: 10px solid black;
 }
