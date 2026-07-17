@@ -121,3 +121,83 @@ a:hover {
     margin-bottom: 100px;
     border-bottom: 10px solid black;
 }
+
+
+/* Desafio 3 - Estilização com CSS */
+
+a:hover {
+    color: purple;
+    background-color: rgb(255, 47, 234)
+}
+
+#body {
+    color: rgb(126, 8, 161);
+    background-color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    
+}
+
+#header {
+    background-color: rgb(200, 136, 219);
+    color: rgb(35, 35, 165);
+    font-family: 'lobster', 'times new roman', times, serif;
+    font-size: 40px;
+}
+
+#footer {
+    background-color: #cc6bb7;
+    color: rgb(122, 22, 22);
+    font-size: 25px;
+    font-family: 'lobster', 'times new roman', times, serif;
+}
+
+.titulo-secao {
+    font-family: 'lobster', 'times new roman', times, serif;
+    color: red;
+}
+
+.card-programa {
+    background: rgb(149, 232, 215);
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#inicio {
+    color: rgb(126, 8, 161);
+    font-size: 20px;
+    background: plum;
+}
+
+#programacao {
+    background: #cc6bb7;
+    border-left: 5px solid red;
+}
+
+#contato {
+     background: #cc6bb7;
+    border-left: 5px solid red;
+}
+
+:root {
+    --blue-slate: red;
+    --glaucous: plum;
+    --sky: purple;
+    --white: violet;
+    --blue-slate: rgb(45, 45, 172);
+    font-size: 40px
+    font-weight: 50px
+}
+
+nav {
+    ul {
+        list-style: none;
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color:aqua;
+        background: #593C8F;
+    }
+}
